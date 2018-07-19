@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+    <title>Kazu's Mark</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" rel="stylesheet">
+    <link href="KazStyle.css" rel="stylesheet" />
+</head>
+
+<body class="background">
+
+    <div class="main">
+
+        <!-- NavBar -->
+        <div class="navbar-fixed">
+            <nav id="backcolor" role="navigation">
+                <div class="nav-wrapper">
+                    <!-- Desktop Menu Options -->
+                    <ul id="desk" class="center hide-on-med-and-down">
+                        <li class="active">
+                            <a href="Request.html">Make a Request</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="Home.html">Home</a>
+                        </li>
+                    </ul>
+                    <!-- Mobile Menu Options -->
+                    <ul class="side-nav" id="nav-mobile">
+                        <li>
+                            <a href="Login">
+                                <i class="material-icons">account_circle</i>
+                                <p>Make a Request</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="Settings">
+                                <i class="material-icons">settings</i>
+                                <p>About</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Settings">
+                                <i class="material-icons">settings</i>
+                                <p>Contact Us</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <br/>
+
+        <div class="center">
+            <h1>Make a Request</h1>
+
+            <div class="container">
+                <h5>
+                    Here is the page where you would make a request. Please fill in your full name, email and telephone number so we can be in
+                    direct contact with you regarding your request.
+                </h5>
+            </div>
+
+            <div class="boarder sec">
+                <hr>
+            </div>
+
+            <form enctype="multipart/form-data" class="container">
+                <div class="contain">
+                    Full Name:
+                    <input type="text" name="fname" placeholder="Full Name">
+                </div>
+                <div class="flex">
+                    <div class="contain">
+                        Email:
+                        <input type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="contain">
+                        Telephone:
+                        <input type="text" name="tel" placeholder="Telephone">
+                    </div>
+                </div>
+                <div class="contain">
+                    Description:
+                    <textarea id="textarea1" data-length="120" placeholder="Description" class="materialize-textarea"></textarea>
+                </div>
+
+
+                <p>
+                    If you want to upload an image, please do it here(JPEG, PNG):
+                </p>
+                <div class="file-field input-field">
+                    <div id="backcolor" class="btn">
+                        <span>File</span>
+                        <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                    </div>
+                </div><br>
+
+
+                <div class="bttn">
+                    <div class="#">
+                        <button class="btn waves-effect waves-light" id="backcolor" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <footer id="backcolor" class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                        <h5 class="white-text">Created By Ivensky Watermann</h5>
+                        <p class="grey-text text-lighten-4">A Gift From a Friend.</p>
+                    </div>
+                    <div class="col s12 l4 offset-l2">
+                        <h5 class="white-text">Follow Us</h5>
+                        <ul class="footer">
+                            <li>
+                                <!-- Add Social Media Icons -->
+                                <a href="#!" class="grey-text text-lighten-3"><i class="small fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text text-lighten-3"><i class="small fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text text-lighten-3"><i class="small fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text text-lighten-3"><i class="small fab fa-snapchat-ghost"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2018 Copyright by Victor Czar Ivansky Inc.
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
